@@ -10,7 +10,13 @@
  
  For each of the metrics above, declare either a constant or a variable and assign it a value corresponding to a hypothetical post. Be sure to use proper naming conventions.
  */
+var likesPic1 = 50
+var commentsPic1 = 15
+let yearPic1 = 2025
+let monthPic1 = 2
+let dayPic1 = 13
 
+print("\nPicture 1:\n","\nlikes:",likesPic1, "- comments:",commentsPic1, "- year:", yearPic1, "- month:", monthPic1, "- day:", dayPic1 )
 
 
 

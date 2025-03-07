@@ -11,6 +11,16 @@
  - Goal number of steps: The user's goal for number of steps to take each day
  - Average heart rate: The user's average heart rate over the last 24 hours
  */
+let userName = "Sonja"
+print("\nuserName is a constant - will stay the same for lifetime of app recording this user - if namechange should be optional - use var")
+var age = 46
+print("age changes - use var")
+var todaysSteps = 5_000
+print("todaysSteps will change constantly over the day - use var")
+let goalSteps = 1_0000
+print("goealSteps will stay the same, if following the recommended daily goal - if option for setting individual goals, choose var")
+var heartRateAverage = 76
+print("Recorede average heartrate will change each day\n")
 
 
 

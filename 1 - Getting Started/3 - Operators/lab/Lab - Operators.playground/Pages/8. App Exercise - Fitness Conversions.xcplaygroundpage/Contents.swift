@@ -7,6 +7,14 @@
 
  Now create a constant `percentOfGoal` of type `Double` that equals the percent of the goal that has been reached so far. You'll need to convert your constants of type `Int` to be of type `Double` in your calculation.
  */
+var steps: Int = 5_500
+let stepGoal: Int = 10_000
+let percentOfGoal: Double
+percentOfGoal = (Double(steps) / Double(stepGoal)) * 100
+print(percentOfGoal)
+var percentOfGoalInt = Int(percentOfGoal)
+print(percentOfGoalInt)
+
 
 
 /*:

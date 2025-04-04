@@ -6,17 +6,28 @@
 print("I have learned the following:")
 print("What features make Swift a modern and safe language")
 print("How to use the Swift REPL in Terminal")
-print("How to use playgrounds to make writing Swift fun and simple")
+print("How to use playgrounds to make writing Swift fun and simple \n")
+
 /*:
  Now print your own phrases to the console. Pick one of your favorite songs. Use your knowledge of the `print` function to display the song title and artist.
  */
-print("hello")
+print("Daydream Bekuever allways puts me in a good mood. \n\n")
 
 /*:
  Use multiple `print` functions to write out some of the lyrics to the song.
  */
 
+print("Cheer up, sleepy Jean, oh what can it mean")
+print("To a daydream believer and a homecoming queen?\n")
 
+var lyrics = """
+Yout once thought of me as a white knight on his steed
+Now you know how happy I can be
+Oh, and our times start and end without dollar
+one to spend
+But how much baby do we really need?
+"""
+print(lyrics)
 
 /*:
 

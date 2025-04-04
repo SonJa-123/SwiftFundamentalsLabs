@@ -3,7 +3,10 @@
  
  Declare a variable whose value begins at 10. Using addition, update the value to 15 using the compound assignment operator. Using multiplication, update the value to 30 using compound assignment. Print out the variable's value after each assignment.
  */
-
+var number1 = 10
+print(number1)
+number1 = number1+5
+print(number1)
 
 /*:
  Create a variable called `piggyBank` that begins at 0. You will use this to keep track of money you earn and spend. For each point below, use the right compound assignment operator to update the balance in your piggy bank.
@@ -16,6 +19,18 @@
  
  Print the balance of your piggy bank after each step.
  */
+var piggyBank = 0
+print("Your current balance is", piggyBank)
+piggyBank = piggyBank + 10
+print("Your current balance is", piggyBank)
+piggyBank = piggyBank + 20
+print("Your current balance is", piggyBank)
+piggyBank = piggyBank / 2
+print("Your current balance is", piggyBank)
+piggyBank = piggyBank * 3
+print("Your current balance is", piggyBank)
+piggyBank = piggyBank - 3
+print("Your current balance is", piggyBank)
 
 
 
